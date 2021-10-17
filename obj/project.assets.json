@@ -1470,24 +1470,33 @@
     ]
   },
   "packageFolders": {
-    "/home/gaz/.nuget/packages/": {}
+    "C:\\Users\\woaks\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gaz/projects/climusicdotnet/dotnetapp2.csproj",
+      "projectUniqueName": "D:\\Projects\\A1111\\climusicdotnet\\dotnetapp2.csproj",
       "projectName": "dotnetapp2",
-      "projectPath": "/home/gaz/projects/climusicdotnet/dotnetapp2.csproj",
-      "packagesPath": "/home/gaz/.nuget/packages/",
-      "outputPath": "/home/gaz/projects/climusicdotnet/obj/",
+      "projectPath": "D:\\Projects\\A1111\\climusicdotnet\\dotnetapp2.csproj",
+      "packagesPath": "C:\\Users\\woaks\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\A1111\\climusicdotnet\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/gaz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\woaks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1529,18 +1538,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

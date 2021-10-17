@@ -4,6 +4,6 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)videolan.libvlc.windows/3.0.12/build/VideoLAN.LibVLC.Windows.targets" Condition="Exists('$(NuGetPackageRoot)videolan.libvlc.windows/3.0.12/build/VideoLAN.LibVLC.Windows.targets')" />
+    <Import Project="$(NuGetPackageRoot)videolan.libvlc.windows\3.0.12\build\VideoLAN.LibVLC.Windows.targets" Condition="Exists('$(NuGetPackageRoot)videolan.libvlc.windows\3.0.12\build\VideoLAN.LibVLC.Windows.targets')" />
   </ImportGroup>
 </Project>

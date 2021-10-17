@@ -2,8 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-
-namespace CLIMusicDotNet
+namespace dotnetapp2
 {
     class Track
     {

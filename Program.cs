@@ -1,30 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terminal.Gui;
-using System.IO;
-
-
-namespace CLIMusicDotNet
+﻿namespace dotnetapp2
 {
     class Program
     {
-
         static void Main(string[] args)
         {
+            var musicApp = new GUIApp();
 
-            GUIApp CLIMusicDotNetApp = new GUIApp();
-
-            CLIMusicDotNetApp.Init();
-            CLIMusicDotNetApp.AddControls();
-        }
-
-   
-        private static void MusicView_OpenSelectedItem(ListViewItemEventArgs obj)
-        {
-            throw new NotImplementedException();
+            musicApp.Init();
+            musicApp.AddControls();
         }
     }
 }
